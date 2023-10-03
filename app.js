@@ -84,6 +84,6 @@ app.get("/", function(req, res){
 })
 
 
-app.listen(proc.env.PORT || 5700, function(){
+app.listen(5700, function(){
     console.log("app started on port 5700...")
 })
